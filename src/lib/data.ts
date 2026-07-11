@@ -2,14 +2,23 @@
 import { Issue, IssueIndexData, Article, IssueMeta } from '@/types'
 import indexData from '../../data/issues.json'
 
+const BASE_PATH = '/the-economist-archive'
+
 const issueIndex: IssueIndexData = indexData as IssueIndexData
+
+function withBase(path: string): string {
+  return BASE_PATH + path
+}
 
 export function getIssueIndex(): IssueIndexData {
   return issueIndex
 }
 
 export function getAllIssues(): IssueMeta[] {
-  return issueIndex.issues
+  return issueIndex.issues.map(issue => ({
+    ...issue,
+    coverImage: withBase(issue.coverImage)
+  }))
 }
 
 export function getAllSections(): string[] {
@@ -18,7 +27,18 @@ export function getAllSections(): string[] {
 
 export function getIssue(id: string): Issue {
   const data = require(`../../data/issues/${id}.json`) as Issue
-  return data
+  return {
+    ...data,
+    coverImage: withBase(data.coverImage),
+    sections: data.sections.map(section => ({
+      ...section,
+      articles: section.articles.map(article => ({
+        ...article,
+        images: article.images.map(img => withBase(img)),
+        contentHtml: article.contentHtml.replace(/src="\/images\//g, `src="${BASE_PATH}/images/`)
+      }))
+    }))
+  }
 }
 
 export function getAllArticles(): Article[] {
@@ -62,6 +82,10 @@ export function getArticleBySlug(slug: string): Article | null {
     }
   }
   return null
+}
+
+export function resolveImagePath(path: string): string {
+  return withBase(path)
 }
 
 export function getLatestArticles(count: number = 20): Article[] {

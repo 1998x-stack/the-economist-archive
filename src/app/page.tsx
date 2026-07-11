@@ -2,6 +2,7 @@
 import { getLatestArticles, getAllIssues, getAllSections } from '@/lib/data'
 import ArticleGrid from '@/components/ArticleGrid'
 import IssueTimeline from '@/components/IssueTimeline'
+import Link from 'next/link'
 import Footer from '@/components/Footer'
 import HomeClient from '@/components/HomeClient'
 
@@ -21,7 +22,7 @@ export default function Home() {
           {/* Hero article */}
           {heroArticle && (
             <section className="py-8">
-              <a
+              <Link
                 href={`/articles/${heroArticle.slug}`}
                 className="card-hover group block overflow-hidden rounded-lg border border-te-border bg-white no-underline"
               >
@@ -49,7 +50,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-              </a>
+              </Link>
             </section>
           )}
 
