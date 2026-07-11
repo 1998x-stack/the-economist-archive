@@ -1,0 +1,217 @@
+{
+  "issues": [
+    {
+      "id": "TE-2026-07-04",
+      "title": "July 4th 2026",
+      "date": "2026-07-04",
+      "coverImage": "/images/covers/TE-2026-07-04.jpg",
+      "articleCount": 74
+    },
+    {
+      "id": "TE-2026-06-27",
+      "title": "June 27th 2026",
+      "date": "2026-06-27",
+      "coverImage": "/images/covers/TE-2026-06-27.jpg",
+      "articleCount": 75
+    },
+    {
+      "id": "TE-2026-06-20",
+      "title": "June 20th 2026",
+      "date": "2026-06-20",
+      "coverImage": "/images/covers/TE-2026-06-20.jpg",
+      "articleCount": 76
+    },
+    {
+      "id": "TE-2026-06-13",
+      "title": "June 13th 2026",
+      "date": "2026-06-13",
+      "coverImage": "/images/covers/TE-2026-06-13.jpg",
+      "articleCount": 80
+    },
+    {
+      "id": "TE-2026-06-06",
+      "title": "June 6th 2026",
+      "date": "2026-06-06",
+      "coverImage": "/images/covers/TE-2026-06-06.jpg",
+      "articleCount": 81
+    },
+    {
+      "id": "TE-2026-05-30",
+      "title": "May 30th 2026",
+      "date": "2026-05-30",
+      "coverImage": "/images/covers/TE-2026-05-30.jpg",
+      "articleCount": 68
+    },
+    {
+      "id": "TE-2026-05-23",
+      "title": "May 23rd 2026",
+      "date": "2026-05-23",
+      "coverImage": "/images/covers/TE-2026-05-23.jpg",
+      "articleCount": 76
+    },
+    {
+      "id": "TE-2026-05-16",
+      "title": "May 16th 2026",
+      "date": "2026-05-16",
+      "coverImage": "/images/covers/TE-2026-05-16.jpg",
+      "articleCount": 76
+    },
+    {
+      "id": "TE-2026-05-09",
+      "title": "May 9th 2026",
+      "date": "2026-05-09",
+      "coverImage": "/images/covers/TE-2026-05-09.jpg",
+      "articleCount": 77
+    },
+    {
+      "id": "TE-2026-05-02",
+      "title": "2026-05-02",
+      "date": "2026-05-02",
+      "coverImage": "/images/covers/TE-2026-05-02.jpg",
+      "articleCount": 75
+    },
+    {
+      "id": "TE-2026-04-25",
+      "title": "[Apr 25th 2026]",
+      "date": "2026-04-25",
+      "coverImage": "/images/covers/TE-2026-04-25.jpg",
+      "articleCount": 75
+    },
+    {
+      "id": "TE-2026-04-18",
+      "title": "[Apr 18th 2026]",
+      "date": "2026-04-18",
+      "coverImage": "/images/covers/TE-2026-04-18.jpg",
+      "articleCount": 79
+    },
+    {
+      "id": "TE-2026-04-11",
+      "title": "2026-04-11",
+      "date": "2026-04-11",
+      "coverImage": "/images/covers/TE-2026-04-11.jpg",
+      "articleCount": 75
+    },
+    {
+      "id": "TE-2026-04-04",
+      "title": "[Apr 4th 2026]",
+      "date": "2026-04-04",
+      "coverImage": "/images/covers/TE-2026-04-04.jpg",
+      "articleCount": 72
+    },
+    {
+      "id": "TE-2026-03-28",
+      "title": "2026-03-28",
+      "date": "2026-03-28",
+      "coverImage": "/images/covers/TE-2026-03-28.jpg",
+      "articleCount": 84
+    },
+    {
+      "id": "TE-2026-03-21",
+      "title": "[Mar 21st 2026]",
+      "date": "2026-03-21",
+      "coverImage": "/images/covers/TE-2026-03-21.jpg",
+      "articleCount": 74
+    },
+    {
+      "id": "TE-2026-03-14",
+      "title": "[Mar 14th 2026]",
+      "date": "2026-03-14",
+      "coverImage": "/images/covers/TE-2026-03-14.jpg",
+      "articleCount": 76
+    },
+    {
+      "id": "TE-2026-03-07",
+      "title": "[Mar 7th 2026]",
+      "date": "2026-03-07",
+      "coverImage": "/images/covers/TE-2026-03-07.jpg",
+      "articleCount": 71
+    },
+    {
+      "id": "TE-2026-02-28",
+      "title": "[Feb 28th 2026]",
+      "date": "2026-02-28",
+      "coverImage": "/images/covers/TE-2026-02-28.jpg",
+      "articleCount": 76
+    },
+    {
+      "id": "TE-2026-02-21",
+      "title": "2026-02-21",
+      "date": "2026-02-21",
+      "coverImage": "/images/covers/TE-2026-02-21.jpg",
+      "articleCount": 75
+    },
+    {
+      "id": "TE-2026-02-14",
+      "title": "2026-02-14",
+      "date": "2026-02-14",
+      "coverImage": "/images/covers/TE-2026-02-14.jpg",
+      "articleCount": 78
+    },
+    {
+      "id": "TE-2026-02-07",
+      "title": "2026-02-07",
+      "date": "2026-02-07",
+      "coverImage": "/images/covers/TE-2026-02-07.jpg",
+      "articleCount": 80
+    },
+    {
+      "id": "TE-2026-01-31",
+      "title": "2026-01-31",
+      "date": "2026-01-31",
+      "coverImage": "/images/covers/TE-2026-01-31.jpg",
+      "articleCount": 75
+    },
+    {
+      "id": "TE-2026-01-24",
+      "title": "2026-01-24",
+      "date": "2026-01-24",
+      "coverImage": "/images/covers/TE-2026-01-24.jpg",
+      "articleCount": 74
+    },
+    {
+      "id": "TE-2026-01-17",
+      "title": "2026-01-17",
+      "date": "2026-01-17",
+      "coverImage": "/images/covers/TE-2026-01-17.jpg",
+      "articleCount": 78
+    },
+    {
+      "id": "TE-2026-01-10",
+      "title": "2026-01-10",
+      "date": "2026-01-10",
+      "coverImage": "/images/covers/TE-2026-01-10.jpg",
+      "articleCount": 69
+    },
+    {
+      "id": "TE-2026-01-03",
+      "title": "2026-01-03",
+      "date": "2026-01-03",
+      "coverImage": "/images/covers/TE-2026-01-03.jpg",
+      "articleCount": 62
+    }
+  ],
+  "allSections": [
+    "1843",
+    "Asia",
+    "Briefing",
+    "Britain",
+    "Business",
+    "By Invitation",
+    "China",
+    "Culture",
+    "Economic & financial indicators",
+    "Essay",
+    "Europe",
+    "Finance & economics",
+    "International",
+    "Leaders",
+    "Letters",
+    "Middle East & Africa",
+    "Obituary",
+    "Science & technology",
+    "Special report",
+    "The Americas",
+    "The world this week",
+    "United States"
+  ]
+}

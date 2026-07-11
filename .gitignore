@@ -1,0 +1,25 @@
+# Ignore all mp3 files
+*.mp3
+*.azw3
+*.mobi
+TE-2025/
+TE-2024/
+TE-2023/
+TE-2022/
+TE-2021/
+TE-2020/
+
+push_economist.bat
+
+.claude/
+AGENTS.md
+SKILL.md
+.codex/
+_dev
+
+# Ignore all pdf files (copyright)
+*.pdf
+
+node_modules/
+.next/
+out/
